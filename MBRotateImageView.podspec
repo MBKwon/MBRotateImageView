@@ -3,6 +3,7 @@ Pod::Spec.new do |s|
   s.version = '0.9'
   s.platform = :ios
   s.ios.deployment_target = '9.0'
+  s.swift_version = '4.2'
   s.license = 'MIT License'
   s.homepage = 'https://github.com/MBKwon/MBRotateImageView'
   s.authors = {'MB Kyle' => 'maskkwon@gmail.com'}
