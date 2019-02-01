@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MBRotateImageView: UIView {
+public class MBRotateImageView: UIView {
     
     private let imageView: UIImageView = UIImageView(frame: .zero)
     private var rotationTimer: Timer?
