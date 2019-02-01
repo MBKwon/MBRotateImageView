@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.summary  = 'A ImageView that is rotating'
   s.source   = {:git => 'https://github.com/MBKwon/MBRotateImageView.git', :tag => s.version.to_s}  
   s.source_files = 'MBRotateImageView/MBRotateImageView.swift'
+  s.frameworks = 'UIKit'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
